@@ -40,7 +40,7 @@ You can install all the necessary dependencies using the `requirements.txt` file
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/your-username/ai-legal-team-agents.git](https://github.com/your-username/ai-legal-team-agents.git)
+    git clone [https://github.com/kashifm777/LegalAgent](https://github.com/kashifm777/LegalAgent)
     cd ai-legal-team-agents
     ```
 2.  **Install Dependencies:**
