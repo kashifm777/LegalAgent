@@ -21,9 +21,9 @@ This Streamlit application provides a suite of AI-powered legal agents designed 
 
 You can try out the live demo of the application here:
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-legal-team.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://legal-agent-mk.streamlit.app)
 
-[https://ai-legal-team.streamlit.app](https://ai-legal-team.streamlit.app)
+[Legal Agent](https://legal-agent-mk.streamlit.app)
 
 ## ⚙️ Dependencies
 
