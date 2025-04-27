@@ -5,3 +5,4 @@ chromadb
 python-dotenv
 google-generativeai
 openai
+google-genai
