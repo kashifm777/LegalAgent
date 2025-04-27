@@ -1,0 +1,7 @@
+streamlit
+agno
+duckduckgo-search
+chromadb
+python-dotenv
+google-generativeai
+openai
