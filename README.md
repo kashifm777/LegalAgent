@@ -17,14 +17,6 @@ This Streamlit application provides a suite of AI-powered legal agents designed 
 * **Structured Output:** Presents the analysis in a structured format with detailed findings, key points summary, and specific recommendations.
 * **Web Search Capability:** Integrates DuckDuckGo for agents to fetch additional legal information when necessary.
 
-## 🚀 App Demo
-
-You can try out the live demo of the application here:
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://legal-agent-mk.streamlit.app)
-
-[Legal Agent](https://legal-agent-mk.streamlit.app)
-
 ## ⚙️ Dependencies
 
 * `streamlit`: For creating the web application interface.
