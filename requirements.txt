@@ -9,4 +9,3 @@ google-genai
 pypdf
 mcp
 onnxruntime
-hnswlib-py
