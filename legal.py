@@ -83,7 +83,7 @@ with st.sidebar:
 if st.session_state.knowledge_base:
     legal_researcher = Agent(
         name="LegalAdvisor",
-        model=Gemini(id="gemini-2.0-flash-exp"),
+        model=Gemini(id="gemini-2.5-flash"),
         knowledge=st.session_state.knowledge_base,
         search_knowledge=True,
         description="Legal Researcher AI - Finds and cites relevant legal cases, regulations, and precedents using all data in the knowledge base.",
@@ -99,7 +99,7 @@ if st.session_state.knowledge_base:
 
     contract_analyst = Agent(
         name="ContractAnalyst",
-        model=Gemini(id="gemini-2.0-flash-exp"),
+        model=Gemini(id="gemini-2.5-flash"),
         knowledge=st.session_state.knowledge_base,
         search_knowledge=True,
         description="Contract Analyst AI - Reviews contracts and identifies key clauses, risks, and obligations using the full document data.",
@@ -113,7 +113,7 @@ if st.session_state.knowledge_base:
 
     legal_strategist = Agent(
         name="LegalStrategist",
-        model=Gemini(id="gemini-2.0-flash-exp"),
+        model=Gemini(id="gemini-2.5-flash"),
         knowledge=st.session_state.knowledge_base,
         search_knowledge=True,
         description="Legal Strategist AI - Provides comprehensive risk assessment and strategic recommendations based on all the available data from the contract.",
@@ -127,7 +127,7 @@ if st.session_state.knowledge_base:
 
     team_lead = Agent(
         name="teamlead",
-        model=Gemini(id="gemini-2.0-flash-exp"),
+        model=Gemini(id="gemini-2.5-flash"),
         description="Team Lead AI - Integrates responses from the Legal Researcher, Contract Analyst, and Legal Strategist into a comprehensive report.",
         instructions=[
             "Combine and summarize all insights provided by the Legal Researcher, Contract Analyst, and Legal Strategist. "
